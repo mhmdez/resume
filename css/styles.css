@@ -1,0 +1,186 @@
+/**********************Tag Selectors***********************/
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Inter", "Lobster", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 0px auto 0 auto;
+  color: #394867;
+  font-size: 2.75rem;
+  line-height: 2;
+  z-index: 1;
+  font-family: beirut;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #394867;
+  z-index: 1;
+  padding-bottom: 10px;
+  margin: 0px auto 0 auto;
+}
+
+h3 {
+  color: #9ba4b4;
+  margin-top: 0px;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #394867;
+  z-index: 1;
+  padding-bottom: 100px;
+  margin: 1px auto 0 auto;
+  font-family: Lobster;
+}
+
+
+
+p {
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #9ba4b4;
+  font-family: Inter;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/*********************Class Selectors***********************/
+
+.top-container {
+  background-color: #f1f6f9;
+  position: relative;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.mo {
+  font-weight: 500;
+  font-size: 3.75rem;
+  font-family: Lobster;
+}
+
+.pro {
+  /*text-decoration: underline;*/
+  font-weight: 700;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 400px;
+  right: 10%;
+  width: 20%;
+  visibility: hidden;
+}
+
+.profile-image {
+  margin: 0 auto 0 auto;
+  bottom: 100%;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.bottom-cloud {
+  margin: auto;
+  bottom: 10%;
+  width: 400px;
+  visibility: hidden;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.mindset-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #394867;
+
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #394867;
+  background-image: -webkit-linear-gradient(top, #394867, #394867);
+  background-image: -moz-linear-gradient(top, #394867, #394867);
+  background-image: -ms-linear-gradient(top, #394867, #394867);
+  background-image: -o-linear-gradient(top, #394867, #394867);
+  background-image: linear-gradient(to bottom, #394867, #394867);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #394867;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #f1f6f9;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
